@@ -20,11 +20,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Lab04(inputW, s,f);
-input[1:0] inputW;
-input s;
+module Lab04(inputW, s, cout,f);
+input [3:0] inputW;
+input [3:0] s;
+output [3:0] cout;
 output f;
 
-
+Lab04_2 fa0(inputW[0], s[0], 0, cout[0], c1);
+Lab04_2 fa1(inputW[1], s[1], c1, cout[1], c2);
+Lab04_2 fa2(inputW[2], s[2], c2, cout[2], c3);
+Lab04_2 fa3(inputW[3], s[3], c3, cout[3], f);
 
 endmodule
