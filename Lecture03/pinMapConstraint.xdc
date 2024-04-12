@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN AB22 [get_ports f]
+set_property PACKAGE_PIN V22 [get_ports x1]
+set_property PACKAGE_PIN U21 [get_ports x2]
+set_property IOSTANDARD LVCMOS33 [get_ports x1]
+set_property IOSTANDARD LVCMOS33 [get_ports x2]
+set_property IOSTANDARD LVCMOS33 [get_ports f]
