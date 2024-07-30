@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1718951929">
+  <File Type="ROUTE-PWR" Name="FP_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="FP.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="FP_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="FP_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="FP_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="FP.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="FP_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="FP_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="FP_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="FP_opt.dcp"/>
+  <File Type="OPT-DRC" Name="FP_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FP.hwdef"/>
+  <File Type="PWROPT-DCP" Name="FP_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="FP_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="FP_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="FP_placed.dcp"/>
+  <File Type="PLACE-IO" Name="FP_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="FP_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="FP_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="FP_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="FP_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="FP_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FP_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="FP.bin"/>
+  <File Type="PLACE-TIMING" Name="FP_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="FP_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="FP_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FP_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="FP.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="FP_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="FP_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="FP_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="FP.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="FP_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FP_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="FP_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FP_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="FP_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="FP_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="FP_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FP_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FP_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FP_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="FP_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="FP_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="FP_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="FP_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="FP_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="FP_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="FP_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="FP_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="FP_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="FP_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="FP_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FP_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FP_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="FP_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="FP_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="FP_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="FP_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="FP.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="FP_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="FP_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="FP.nky"/>
+  <File Type="BITSTR-BMM" Name="FP_bd.bmm"/>
+  <File Type="PDI-FILE" Name="FP.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="FP_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="FP_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="FP.rcfi"/>
+  <File Type="CFI_FILE" Name="FP.cfi"/>
+  <File Type="RNPI_FILE" Name="FP.rnpi"/>
+  <File Type="NPI_FILE" Name="FP.npi"/>
+  <File Type="RBD_FILE" Name="FP.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="FP.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="FP.sysdef"/>
+  <File Type="BG-BGN" Name="FP.bgn"/>
+  <File Type="BG-DRC" Name="FP.drc"/>
+  <File Type="RDI-RDI" Name="FP.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="FP_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="FP_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/FP.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

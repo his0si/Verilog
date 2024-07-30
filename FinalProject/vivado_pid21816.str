@@ -1,0 +1,360 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:14:34 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 21816
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jun 21 10:56:49 KST 2024
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1020
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 125%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	D:/_Download/Vivado/2023.2/tps/win64/jre17.0.7_7
+Java executable: 	D:/_Download/Vivado/2023.2/tps/win64/jre17.0.7_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	his0si
+User home directory: C:/Users/khs81
+User working directory: E:/FinalProject
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: D:/_Download/Vivado
+HDI_APPROOT: D:/_Download/Vivado/2023.2
+RDI_DATADIR: D:/_Download/Vivado/2023.2/data
+RDI_BINDIR: D:/_Download/Vivado/2023.2/bin
+
+Vivado preferences file: C:/Users/khs81/AppData/Roaming/Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: C:/Users/khs81/AppData/Roaming/Xilinx/Vivado/2023.2/
+Vivado layouts directory: C:/Users/khs81/AppData/Roaming/Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	D:/_Download/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	E:/FinalProject/vivado.log
+Vivado journal file: 	E:/FinalProject/vivado.jou
+Engine tmp dir: 	E:/FinalProject/.Xil/Vivado-21816-BOOK-02L4QTD6JO
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+JAVA_HOME: C:\Program Files\Java\jdk-17
+RDI_APPROOT: D:/_Download/Vivado/2023.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent26896 "E:\FinalProject\FinalProject.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: D:/_Download/Vivado
+RDI_BINDIR: D:/_Download/Vivado/2023.2/bin
+RDI_BINROOT: D:/_Download/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: D:/_Download/Vivado/2023.2/data
+RDI_INSTALLROOT: D:/_Download
+RDI_INSTALLVER: 2023.2
+RDI_INSTALLVERSION: 2023.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: D:/_Download/Vivado/2023.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: D:/_Download/Vivado/2023.2/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: D:/_Download/Vivado/2023.2/tps/win64/jre17.0.7_7
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: D:/_Download/Vivado/2023.2/lib/win64.o
+RDI_MINGW_LIB: D:/_Download/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\bin;D:/_Download/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: D:/_Download/Vivado/2023.2/ids_lite/ISE/bin/nt64;D:/_Download/Vivado/2023.2/ids_lite/ISE/lib/nt64
+RDI_PROG: D:/_Download/Vivado/2023.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3;D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3\bin;D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3\lib;D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: D:/_Download/Vivado/2023.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: E:\FinalProject:BOOK-02L4QTD6JO-2024-06-21_10-55-31.00
+RDI_SHARED_DATA: D:/_Download/SharedData/2023.2/data
+RDI_TPS_ROOT: D:/_Download/Vivado/2023.2/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: D:/_Download/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: D:/_Download/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: D:/_Download/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: D:/_Download/Vivado/2023.2
+XILINX_VIVADO: D:/_Download/Vivado/2023.2
+XILINX_VIVADO_HLS: D:/_Download/Vivado/2023.2
+_RDI_BINROOT: D:\_Download\Vivado\2023.2\bin
+_RDI_CWD: E:\FinalProject
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 695 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\FinalProject\FinalProject.xpr. Version: Vivado v2023.2 
+// HMemoryUtils.trashcanNow. Engine heap size: 700 MB. GUI used memory: 71 MB. Current time: 6/21/24, 10:56:50 AM KST
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project E:/FinalProject/FinalProject.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,025 MB. GUI used memory: 68 MB. Current time: 6/21/24, 10:57:09 AM KST
+// Tcl Message: open_project E:/FinalProject/FinalProject.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/FinalProject/FinalProject.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 105 MB (+108035kb) [00:01:07]
+// [Engine Memory]: 1,068 MB (+968579kb) [00:01:07]
+// [Engine Memory]: 1,133 MB (+11432kb) [00:01:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  4293 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/_Download/Vivado/2023.2/data/ip'. 
+// [GUI Memory]: 111 MB (+744kb) [00:01:12]
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1524.629 ; gain = 351.637 
+// Project name: FinalProject; location: E:/FinalProject; part: xc7a75tfgg484-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 101 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+// [GUI Memory]: 143 MB (+27559kb) [00:03:11]
+// PAPropertyPanels.initPanels (FP.v) elapsed time: 0.2s
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FP (FP.v)]", 1, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FP (FP.v)]", 1, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FP (FP.v)]", 1, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FP (FP.v)]", 1, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 59 seconds
+selectCodeEditor("FP.v", 376, 92); // ad (FP.v)
+selectCodeEditor("FP.v", 507, 177); // ad (FP.v)
+selectCodeEditor("FP.v", 356, 241); // ad (FP.v)
+// Elapsed time: 20 seconds
+selectCodeEditor("FP.v", 524, 239); // ad (FP.v)
+selectCodeEditor("FP.v", 426, 230); // ad (FP.v)
+selectCodeEditor("FP.v", 445, 242); // ad (FP.v)
+selectCodeEditor("FP.v", 219, 318); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+selectCodeEditor("FP.v", 232, 185); // ad (FP.v)
+selectCodeEditor("FP.v", 4, 239); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+// Elapsed time: 200 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 50 seconds
+selectCodeEditor("FP.v", 1, 263); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 08m:07s
+// [GUI Memory]: 152 MB (+1129kb) [00:09:18]
+// Elapsed Time for: 'L.f': 08m:09s
+// Elapsed time: 11 seconds
+selectCodeEditor("FP.v", 94, 244); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+selectCodeEditor("FP.v", 445, 176); // ad (FP.v)
+// Elapsed time: 69 seconds
+selectCodeEditor("FP.v", 0, 144); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 09m:33s
+typeControlKey(null, null, 'z');
+// Elapsed Time for: 'L.f': 09m:35s
+selectCodeEditor("FP.v", 379, 103); // ad (FP.v)
+selectCodeEditor("FP.v", 137, 339); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FP.v", 135, 309); // ad (FP.v)
+// Elapsed Time for: 'L.f': 09m:47s
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FP.v", 157, 274); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 09m:49s
+selectCodeEditor("FP.v", 107, 298); // ad (FP.v)
+selectCodeEditor("FP.v", 119, 290); // ad (FP.v)
+// Elapsed Time for: 'L.f': 09m:51s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FP.v", 196, 238); // ad (FP.v)
+selectCodeEditor("FP.v", 144, 317); // ad (FP.v)
+// Elapsed Time for: 'L.f': 09m:53s
+// Elapsed Time for: 'L.f': 09m:55s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FP.v", 245, 238); // ad (FP.v)
+// Elapsed Time for: 'L.f': 10m:01s
+// Elapsed Time for: 'L.f': 10m:03s
+selectCodeEditor("FP.v", 58, 263); // ad (FP.v)
+selectCodeEditor("FP.v", 74, 317); // ad (FP.v)
+// Elapsed time: 36 seconds
+selectCodeEditor("FP.v", 163, 319); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 688ms to process. Increasing delay to 3000 ms.
+// Elapsed Time for: 'L.f': 10m:56s
+// Elapsed Time for: 'L.f': 11m:00s
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:15s
+// Elapsed Time for: 'L.f': 11m:18s
+// Elapsed time: 16 seconds
+selectCodeEditor("FP.v", 186, 133); // ad (FP.v)
+selectCodeEditor("FP.v", 180, 273); // ad (FP.v)
+selectCodeEditor("FP.v", 52, 221); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+selectCodeEditor("FP.v", 410, 155); // ad (FP.v)
+// Elapsed time: 325 seconds
+selectCodeEditor("FP.v", 145, 281); // ad (FP.v)
+selectCodeEditor("FP.v", 25, 224); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+selectCodeEditor("FP.v", 112, 33); // ad (FP.v)
+selectCodeEditor("FP.v", 98, 253); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 17m:25s
+// Elapsed Time for: 'L.f': 17m:28s
+selectCodeEditor("FP.v", 677, 109); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 17m:31s
+selectCodeEditor("FP.v", 466, 213); // ad (FP.v)
+// Elapsed Time for: 'L.f': 17m:34s
+selectCodeEditor("FP.v", 461, 217); // ad (FP.v)
+selectCodeEditor("FP.v", 555, 230); // ad (FP.v)
+// Elapsed time: 15 seconds
+selectCodeEditor("FP.v", 506, 258); // ad (FP.v)
+selectCodeEditor("FP.v", 200, 102); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+selectCodeEditor("FP.v", 535, 262, false, true, false, false, false); // ad (FP.v) - Control Key
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "FP.v", 'v'); // ad (FP.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("FP.v", 105, 315); // ad (FP.v)
+selectCodeEditor("FP.v", 330, 134); // ad (FP.v)
+// Elapsed time: 14 seconds
+selectCodeEditor("FP.v", 108, 316); // ad (FP.v)
+selectCodeEditor("FP.v", 249, 219); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 18m:46s
+// Elapsed Time for: 'L.f': 18m:49s
+// Elapsed time: 30 seconds
+selectCodeEditor("FP.v", 109, 146); // ad (FP.v)
+selectCodeEditor("FP.v", 196, 156); // ad (FP.v)
+// Elapsed time: 14 seconds
+selectCodeEditor("FP.v", 34, 110); // ad (FP.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("FP.v", 29, 101); // ad (FP.v)
+selectCodeEditor("FP.v", 382, 212); // ad (FP.v)
+selectCodeEditor("FP.v", 448, 279); // ad (FP.v)
+// Elapsed time: 15 seconds
+selectCodeEditor("FP.v", 86, 119); // ad (FP.v)
+selectCodeEditor("FP.v", 291, 199); // ad (FP.v)
+selectCodeEditor("FP.v", 61, 117); // ad (FP.v)
+selectCodeEditor("FP.v", 516, 122); // ad (FP.v)
+selectCodeEditor("FP.v", 521, 126); // ad (FP.v)
+selectCodeEditor("FP.v", 88, 90); // ad (FP.v)
+selectCodeEditor("FP.v", 341, 234); // ad (FP.v)
+// Elapsed time: 37 seconds
+selectCodeEditor("FP.v", 57, 113); // ad (FP.v)
+selectCodeEditor("FP.v", 431, 244); // ad (FP.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("FP.v", 193, 170); // ad (FP.v)
+selectCodeEditor("FP.v", 193, 170, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 204, 307); // ad (FP.v)
+selectCodeEditor("FP.v", 204, 307, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 167, 285); // ad (FP.v)
+selectCodeEditor("FP.v", 168, 285, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 170, 312); // ad (FP.v)
+selectCodeEditor("FP.v", 170, 312, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 169, 148); // ad (FP.v)
+selectCodeEditor("FP.v", 169, 148, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 175, 148); // ad (FP.v)
+selectCodeEditor("FP.v", 175, 148, false, false, false, false, true); // ad (FP.v) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("FP.v", 522, 155); // ad (FP.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FP.v", 145, 39); // ad (FP.v)
+selectCodeEditor("FP.v", 145, 40, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 163, 44); // ad (FP.v)
+selectCodeEditor("FP.v", 163, 44, false, false, false, false, true); // ad (FP.v) - Double Click
+// Elapsed Time for: 'L.f': 22m:07s
+// Elapsed Time for: 'L.f': 22m:10s
+// Elapsed time: 17 seconds
+selectCodeEditor("FP.v", 181, 104); // ad (FP.v)
+selectCodeEditor("FP.v", 181, 104, false, false, false, false, true); // ad (FP.v) - Double Click
+selectCodeEditor("FP.v", 185, 173); // ad (FP.v)
+selectCodeEditor("FP.v", 185, 173, false, false, false, false, true); // ad (FP.v) - Double Click
+// Elapsed time: 62 seconds
+selectCodeEditor("FP.v", 244, 192); // ad (FP.v)
+selectCodeEditor("FP.v", 223, 112); // ad (FP.v)
+// Elapsed time: 113 seconds
+selectCodeEditor("FP.v", 260, 99); // ad (FP.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,159 MB. GUI used memory: 77 MB. Current time: 6/21/24, 11:27:11 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,159 MB. GUI used memory: 76 MB. Current time: 6/21/24, 11:57:14 AM KST
+// Elapsed time: 2454 seconds
+selectCodeEditor("FP.v", 129, 186); // ad (FP.v)
+selectCodeEditor("FP.v", 129, 186, false, false, false, false, true); // ad (FP.v) - Double Click
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+typeControlKey((HResource) null, "FP.v", 'c'); // ad (FP.v)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1261 ms. Increasing delay to 3783 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2275 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2280 ms to process. Increasing delay to 2000 ms.

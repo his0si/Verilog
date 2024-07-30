@@ -1,0 +1,277 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jun 21 15:35:50 2024
+# Process ID: 12060
+# Current directory: E:/FinalProject/FinalProject.runs/synth_1
+# Command line: vivado.exe -log FP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FP.tcl
+# Log file: E:/FinalProject/FinalProject.runs/synth_1/FP.vds
+# Journal file: E:/FinalProject/FinalProject.runs/synth_1\vivado.jou
+# Running On: BOOK-02L4QTD6JO, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 33968 MB
+#-----------------------------------------------------------
+source FP.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 485.742 ; gain = 181.312
+Command: read_checkpoint -auto_incremental -incremental E:/FinalProject/FinalProject.srcs/utils_1/imports/synth_1/FP.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/FinalProject/FinalProject.srcs/utils_1/imports/synth_1/FP.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top FP -part xc7a75tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26128
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1336.133 ; gain = 440.844
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FP' [E:/FinalProject/FinalProject.srcs/sources_1/new/FP.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'FP' (0#1) [E:/FinalProject/FinalProject.srcs/sources_1/new/FP.v:22]
+WARNING: [Synth 8-3848] Net result in module/entity FP does not have driver. [E:/FinalProject/FinalProject.srcs/sources_1/new/FP.v:30]
+WARNING: [Synth 8-7129] Port result[7] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[6] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[5] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[4] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[3] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[2] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[1] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[0] in module FP is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1444.414 ; gain = 549.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1444.414 ; gain = 549.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1444.414 ; gain = 549.125
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1444.414 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sel[0]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[1]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[2]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[3]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[3]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[2]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[1]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sel[0]'. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/FinalProject/FinalProject.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1524.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1524.301 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1524.301 ; gain = 629.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a75tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1524.301 ; gain = 629.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1524.301 ; gain = 629.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 1524.301 ; gain = 629.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   25 Bit       Adders := 1     
+	   3 Input   21 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   21 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 180 (col length:80)
+BRAMs: 210 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port result[7] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[6] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[5] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[4] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[3] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[2] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[1] in module FP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port result[0] in module FP is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:01:20 . Memory (MB): peak = 1582.629 ; gain = 687.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:01:32 . Memory (MB): peak = 1582.629 ; gain = 687.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:32 . Memory (MB): peak = 1582.629 ; gain = 687.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:34 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   109|
+|3     |LUT1   |    12|
+|4     |LUT2   |   104|
+|5     |LUT3   |   135|
+|6     |LUT4   |   107|
+|7     |LUT5   |   160|
+|8     |LUT6   |   313|
+|9     |FDRE   |    35|
+|10    |IBUF   |    20|
+|11    |OBUF   |     7|
+|12    |OBUFT  |     8|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:39 . Memory (MB): peak = 1586.297 ; gain = 611.121
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:01:44 . Memory (MB): peak = 1586.297 ; gain = 691.008
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1594.707 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 109 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'FP' is not ideal for floorplanning, since the cellview 'FP' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1600.352 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d3c5103c
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 27 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:02:12 . Memory (MB): peak = 1600.352 ; gain = 1110.598
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 1600.352 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/FinalProject/FinalProject.runs/synth_1/FP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FP_utilization_synth.rpt -pb FP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 21 15:38:21 2024...
